@@ -5,6 +5,11 @@
   <![CDATA[
      <script type="text/javascript">
 
+	_IG_RegisterOnloadHandler(function () {
+      // Turn the personalized homepage background pink.
+      document.body.style.backgroundColor="Pink"; 
+        });
+
        // The gadget version of ROT13.
        // Encodes/decodes text strings by replacing each letter with the letter
        // 13 positions to the right in the alphabet. 
@@ -13,7 +18,7 @@
           var input = form.inputbox.value; 
           var aChar;
           var message = "";
-	  document.body.style.backgroundColor="Pink";
+	  
           for (var i = 0; i <input.length; i++)
           { 
              aChar = input.charAt(i);
