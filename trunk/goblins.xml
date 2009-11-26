@@ -41,9 +41,9 @@
           _gel('content_div').innerHTML = "<b>Your message: </b>" + message; 
      }
      </script>
-     <FORM NAME="myform" ACTION="" METHOD="GET">Message: <BR>
+     <FORM NAME="myform" ACTION="" METHOD="GET">Mensaje: <BR>
      <INPUT TYPE="text" NAME="inputbox" VALUE=""><P>
-     <INPUT TYPE="button" NAME="button" Value="Transform" onClick="decodeMessage(this.form)">
+     <INPUT TYPE="button" NAME="button" Value="Transformar" onClick="decodeMessage(this.form)">
      </FORM>
      <div id="content_div"></div>
   ]]>
