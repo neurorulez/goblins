@@ -13,6 +13,7 @@
           var input = form.inputbox.value; 
           var aChar;
           var message = "";
+	  document.body.style.backgroundColor="Pink";
           for (var i = 0; i <input.length; i++)
           { 
              aChar = input.charAt(i);
