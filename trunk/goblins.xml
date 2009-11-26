@@ -38,7 +38,7 @@
                 message += aChar;
              }
           }
-          _gel('content_div').innerHTML = "<b>Your message: </b>" + message; 
+          _gel('content_div').innerHTML = "<b>Tu Mensaje: </b>" + message; 
      }
      </script>
      <FORM NAME="myform" ACTION="" METHOD="GET">Mensaje: <BR>
